@@ -101,6 +101,7 @@ This is the schema of the database
 |userId| int| |
 
 ![ER diagram](images/sparkify ERD.png)
+
 --------------------------------------------
 
 ### ETL process
