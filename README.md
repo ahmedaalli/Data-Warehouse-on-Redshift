@@ -100,7 +100,7 @@ This is the schema of the database
 |userAgent| varchar| |
 |userId| int| |
 
-![Log Dataset](images/ERdiagram.png)
+![Log Dataset](sparkify ERD.png)
 --------------------------------------------
 
 ### ETL process
