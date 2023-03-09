@@ -60,47 +60,6 @@ from buckets and copy them into staging tables inside AWS Redshift.
 ### Data Warehouse Schema Definition
 This is the schema of the database
 
-#### Staging tables
-
-##### TABLE staging_songs
-
-| COLUMN | TYPE | FEATURES |
-| ------ | ---- | ------- |
-|num_songs| int| |
-|artist_id| varchar| |
-|artist_latitude | decimal | |
-|artist_longitude| decimal| |
-|artist_location| varchar| |
-|artist_name | varchar | |
-|song_id| varchar| |
-|title| varchar| |
-|duration | decimal | |
-|year | int | |
-
-
-##### TABLE staging_events
-
-| COLUMN | TYPE | FEATURES |
-| ------ | ---- | ------- |
-|artist| varchar| |
-|auth| varchar| |
-|firstName | varchar | |
-|gender| varchar| |
-|itemInSession | int| |
-|lastName | varchar | |
-|length| decimal| |
-|level| varchar| |
-|location | varchar| |
-|method | varchar| |
-|page | varchar | |
-|registration| varchar| |
-|sessionId| int| |
-|song | varchar| |
-|status| int| |
-|ts| timestamp| |
-|userAgent| varchar| |
-|userId| int| |
-
 ![ER diagram](images/ER-diagram.png)
 
 --------------------------------------------
