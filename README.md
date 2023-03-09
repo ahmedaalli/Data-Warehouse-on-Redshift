@@ -5,7 +5,6 @@
 * [Data Warehouse Schema Definition](#Data-Warehouse-Schema-Definition)
 * [ETL process](#ETL-process)
 --------------------------------------------
-
 ### Introduction
 A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming application. Sparkify has grown their user base and song database and want to move their processes and data onto the cloud. Their data resides in S3, in a directory of JSON logs on user activity on the application, as well as a directory with JSON metadata on the songs in their application.
 
@@ -37,15 +36,11 @@ from buckets and copy them into staging tables inside AWS Redshift.
 "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}
 ~~~~
 --------------------------------------------
-
 ### Data Warehouse Schema Definition
-
 ![ER diagram](images/ER-diagram.png)
 
 --------------------------------------------
-
 ### ETL process
-
 All the transformations logic (ETL) is done in SQL inside Redshift. 
 
 There are 2 main steps:
