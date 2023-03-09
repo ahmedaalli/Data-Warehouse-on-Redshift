@@ -48,6 +48,7 @@ There are 2 main steps:
 1. Ingest data from s3 public buckets into staging tables:
 2. Insert record into a star schema from staging tables
 ### steps of project
+##### in sql_queries.py have all sql queries we need
 ##### in config file you have to put all credential of  aws redshift
 ##### create all tables with create_table.py
 ##### Insert data into staging tables
