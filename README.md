@@ -100,7 +100,6 @@ This is the schema of the database
 |userAgent| varchar| |
 |userId| int| |
 
-
 ![ER diagram](images/images/sparkify ERD.png)
 
 --------------------------------------------
