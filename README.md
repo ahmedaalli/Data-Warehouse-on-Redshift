@@ -100,67 +100,7 @@ This is the schema of the database
 |userAgent| varchar| |
 |userId| int| |
 
-
-#### Dimension tables
-
-##### TABLE users
-
-| COLUMN | TYPE | FEATURES |
-| ------ | ---- | ------- |
-|user_id| int| distkey, PRIMARY KEY |
-|first_name| varchar| |
-|last_name | varchar | |
-|gender| varchar| |
-|level| varchar| |
-
-##### TABLE songs
-
-| COLUMN | TYPE | FEATURES |
-| ------ | ---- | ------- |
-|song_id| varchar| sortkey, PRIMARY KEY |
-|title| varchar| NOT NULL |
-|artist_id | varchar | NOT NULL|
-|duration| decimal| |
-
-##### TABLE artists
-
-| COLUMN | TYPE | FEATURES |
-| ------ | ---- | ------- |
-|artist_id| varchar| sortkey, PRIMARY KEY |
-|name| varchar| NOT NULL |
-|location | varchar | |
-|latitude| decimal| |
-|logitude| decimal| |
-
-
-##### TABLE time
-
-| COLUMN | TYPE | FEATURES |
-| ------ | ---- | ------- |
-|start_time| timestamp| sortkey, PRIMARY KEY |
-|hour| int| |
-|day| int| |
-|week| int| |
-|month| int| |
-|year| int| |
-|weekday| int| |
-
-#### Fact table
-
-##### TABLE songplays
-
-| COLUMN | TYPE | FEATURES |
-| ------ | ---- | ------- |
-|songplay_id| int| IDENTITY (0,1), PRIMARY KEY |
-|start_time| timestamp| REFERENCES  time(start_time)    sortkey|
-|user_id | int | REFERENCES  users(user_id) distkey|
-|level| varchar| |
-|song_id| varchar| REFERENCES  songs(song_id)|
-|artist_id | varchar | REFERENCES  artists(artist_id)|
-|session_id| int| NOT NULL|
-|location| varchar| |
-|user_agent| varchar| |
-
+![Log Dataset](images/ERdiagram.png)
 --------------------------------------------
 
 ### ETL process
