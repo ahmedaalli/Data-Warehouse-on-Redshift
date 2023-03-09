@@ -47,7 +47,7 @@ from buckets and copy them into staging tables inside AWS Redshift.
 
 <b>Log Dataset structure:</b>
 ![Log Dataset](images/log-data.png)
-![ER diagram](images/sparkify ERD.png)
+
 
 <b>Song dataset structure:</b>
 ~~~~
@@ -101,7 +101,7 @@ This is the schema of the database
 |userAgent| varchar| |
 |userId| int| |
 
-![ER diagram](images/sparkify ERD.png)
+![ER diagram](images/ER diagram.png)
 
 --------------------------------------------
 
