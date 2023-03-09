@@ -101,7 +101,7 @@ This is the schema of the database
 |userId| int| |
 
 
-![ER diagram](images/log-data.png)
+![ER diagram](images/images/sparkify ERD.png)
 
 --------------------------------------------
 
