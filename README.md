@@ -10,7 +10,7 @@ A startup called Sparkify wants to analyze the data they've been collecting on s
 
 They'd like a data engineer to build an ETL pipeline that extracts their data from S3, stages them in Redshift, and transforms data into a set of dimensional tables for their analytics team to continue finding insights in what songs their users are listening to. The role of this project is to create a data warehouse on cloud (AWS Redshift) and build ETL pipeline for this analysis.
 
-In this project we are going to use two Amazon Web Services resources:
+In this project we are going to use two Amazon Web Services :
 * [S3](https://aws.amazon.com/en/s3/)
 * [AWS Redshift](https://aws.amazon.com/en/redshift/)
 
